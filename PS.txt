@@ -1,0 +1,39 @@
+Python OOP Concepts
+
+Problem Statement: Library Management System with Users and Memberships
+
+Design and implement a library management system with the following requirements using OOP concepts in
+Python:
+
+Classes and Relationships
+
+Person (Base Class)
+Attributes: name, email
+Methods: Basic methods to get person info
+
+Student (Inherits Person)
+Additional Attributes: student_id, course
+Methods: Borrow and return books, view borrowed books
+
+Teacher (Inherits Person)
+Additional Attributes: employee_id, department
+Methods: Borrow and return books, view borrowed books
+
+Book
+Attributes: title, author, isbn, copies_available
+Methods: Show book info, check availability, update copies on borrow/return
+
+Library
+Attributes: Collection of Book objects, list of user objects (students and teachers)
+Methods:
+Add new books
+Register new users (students or teachers)
+Lend books to users (only if copies are available)
+Accept returns and update book availability
+Display available books
+Track books currently borrowed by each use
+
+Membership
+Track membership details of a user including membership type (Student or Teacher)
+Set borrowing limits (e.g., max 3 books for students, max 5 for teachers)
+Enforce borrowing limits in the borrowing process
