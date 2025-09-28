@@ -1,0 +1,23 @@
+[
+    {
+        "date": "28-09-2025",
+        "description": "Python book",
+        "category": "books",
+        "amount": 1500,
+        "who_paid": "UPI"
+    },
+    {
+        "date": "30-09-2025",
+        "description": "BMW Car Contract",
+        "category": "Vehicle",
+        "amount": 2500000,
+        "who_paid": "Cheque"
+    },
+    {
+        "date": "01-10-2025",
+        "description": "Date with Girlfriend",
+        "category": "Dinner",
+        "amount": 2000,
+        "who_paid": "UPI"
+    }
+]
